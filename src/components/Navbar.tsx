@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className="bg-[var(--col-primary)] w-full p-5">
             <div className='max-w-4xl mx-auto flex flex-col sm:justify-between sm:flex-row items-center'>
-                <div className="flex flex-row  justify-between items-center sm:justify-start">
+                <div className="flex flex-row  justify-between items-center sm:justify-start w-full">
                     <div className="cursor-pointer sm:hidden">
                         <MenuIcon fontSize="large"/>
                     </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
                     {/* Just an empty div for the spacing. Probably a better way out there, but this works, so why not */}
                     <div></div>
                 </div>
-                <div className='space-x-3'>
+                <div className='space-x-3 hidden sm:flex'>
                     {/** TODO: Figure out how to make them thinner */}
                     <SearchIcon fontSize='large' className='text-white cursor-pointer'/>
                     <FavoriteBorder fontSize='large' className='text-white cursor-pointer'/>

@@ -1,4 +1,4 @@
-import DisplayRecipe from "./DisplayRecipe"
+import DisplayRecipe from "./HomeComponents/DisplayRecipe"
 
 const CategoryRecipesList = (props: any) => {
     const recipes = [
